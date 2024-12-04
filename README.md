@@ -13,6 +13,10 @@
 
 - `Internet`: Globales Netzwerk, welches die weltweite Kommunikation ermöglicht durch den Zusammenschluss von Servern ermöglicht.
 
+## RAM
+
+- `Random Access Memory`: dient zum Speichern von Informationen, die schnell benötigt werden. Das bedeutet, dass das Öffnen mehrerer Programme, das Ausführen verschiedener Prozesse oder der gleichzeitige Zugriff auf mehrere Dateien voraussichtlich eine Menge RAM in Anspruch nehmen wird.
+
 ![n]()
 
 ## Pfade
