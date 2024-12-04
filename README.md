@@ -4,16 +4,16 @@
 
 - `Frontend` : Die Ansicht für den Benutzer/Benutzeroberfläche, Design und Layout. Interaktionen des Benutzers
 - `Backend`: Der Benutzer sieht die Backend Services nicht bzw. interagiert damit nicht direkt
-- `Client`: Das Benutzerendgerät
-- `Server`: ist ein Gerät, das Anfragen von Clients verarbeitet und die angeforderten Dienste bereitstellt
+- `Client`: der PC bzw. die Schnittstelle zum Benutzer
+- `Server`: ist ein Gerät welches Anfragen von Clients verarbeitet und die angeforderten Dienste bereitstellt
 
-![name]()
+![]()
 
 ## Internet
 
 - `Internet`: Globales Netzwerk, welches die weltweite Kommunikation ermöglicht durch den Zusammenschluss von Servern ermöglicht.
 
-![name]()
+![n]()
 
 ## Pfade
 
@@ -34,3 +34,25 @@
 
 - `CPU`: Central Processing Unit - Prozessor
 - `RAM`: Random Access Memory - Arbeitsspeicher. Kurzzeitspeicher
+
+## wichtige Befehle für PowerShell
+
+### pwd
+
+- `Print Working Directory`: zeigt den Namen des aktuellen Pfades an
+
+### ls 
+
+- `List`: Anzeige aller Hauptordner
+
+### cd
+
+- `Change Directory`: Navigation zwischen den Pfaden
+
+### mkdir
+
+- `Make Directory`: erstellt Ordner
+
+### new-item
+
+- `New Item`: erstellt Datei
