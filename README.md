@@ -35,7 +35,7 @@
 - `CPU`: Central Processing Unit - Prozessor
 - `RAM`: Random Access Memory - Arbeitsspeicher. Kurzzeitspeicher
 
-## wichtige Befehle für PowerShell
+## wichtige PowerShell-Befehle
 
 ### pwd
 
