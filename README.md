@@ -7,7 +7,7 @@
 - `Client`: der PC bzw. die Schnittstelle zum Benutzer
 - `Server`: ist ein Gerät welches Anfragen von Clients verarbeitet und die angeforderten Dienste bereitstellt
 
-![]()
+![FnBend](./images/backendfrontend.png)
 
 ## Internet
 
@@ -17,7 +17,7 @@
 
 - `Random Access Memory`: dient zum Speichern von Informationen, die schnell benötigt werden. Das bedeutet, dass das Öffnen mehrerer Programme, das Ausführen verschiedener Prozesse oder der gleichzeitige Zugriff auf mehrere Dateien voraussichtlich eine Menge RAM in Anspruch nehmen wird.
 
-![n]()
+![RAM](./images/RAM.png)
 
 ## Pfade
 
@@ -38,25 +38,3 @@
 
 - `CPU`: Central Processing Unit - Prozessor
 - `RAM`: Random Access Memory - Arbeitsspeicher. Kurzzeitspeicher
-
-## wichtige PowerShell-Befehle
-
-### pwd
-
-- `Print Working Directory`: zeigt den Namen des aktuellen Pfades an
-
-### ls 
-
-- `List`: Anzeige aller Hauptordner
-
-### cd
-
-- `Change Directory`: Navigation zwischen den Pfaden
-
-### mkdir
-
-- `Make Directory`: erstellt Ordner
-
-### new-item
-
-- `New Item`: erstellt Datei
