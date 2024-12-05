@@ -4,6 +4,8 @@
 
 - die Teilnehmer werden immer besser was Design und das Vortragen angeht
 
+- der Wu Tang Clan Hoody steht Kevin
+
 - Domske gibt viel unnötige Zusatzinformationen, hat aber nichts mit den Präsis zu tun
 
 - Nils schläft gerne mal ein
