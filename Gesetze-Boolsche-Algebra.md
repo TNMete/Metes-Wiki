@@ -34,7 +34,7 @@
 
 ``A ∨ ¬A = 1``
 
-A`` ∧ ¬A = 0``
+``A ∧ ¬A = 0``
 
 ### 7. Idempotenzgesetz:
 
