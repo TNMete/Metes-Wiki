@@ -1,6 +1,6 @@
 # Zusatzaufgabe - Meilenrechner
 
-a = input("gib die km ein, die in Meilen umgerechnet werden sollen: ")
+a = input("Geben Sie die Kilometer ein, die in Meilen umgerechnet werden sollen: ")
 
 def km_in_meilen(km):
     x = float(km)
