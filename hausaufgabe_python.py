@@ -12,6 +12,11 @@ print("Zahl 2 - Zahl 1 =",zahl2-zahl1)
 print("Zahl 1 * Zahl 2 =",zahl1*zahl2)
 print("Zahl 2 / Zahl 1 =",zahl2/zahl1)
 
+# Aufgabe 1
+
+aufgabe1_1 = "Heute haben wir das Terminal geöffnet, Python mit Befehlen geupdated und erste Erfahrungen mit Befehlen gesammelt wie z.B. Print, Float, INT etc."
+aufgabe1_2 = "In meinem wiki habe ich Vergleichsoperatoren hinzugefügt, die ich in Zukunft sicher oft gebrauchen werde"
+
 # Aufgabe 2
 
 note1 = int(float(input("gib die erste Note ein: ")))
