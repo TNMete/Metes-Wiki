@@ -22,6 +22,7 @@ print(x >= y)   # False
 ### Kleiner oder gleich
 print(x <= y)   # True
 
+
 ### if-Operatoren
 x = 15
 y = 10
