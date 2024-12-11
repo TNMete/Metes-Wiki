@@ -1,6 +1,11 @@
-# Umrechnung von Kilometern in Meilen
-def kilometer_in_meilen(kilometer):
-    return kilometer * 0.621371
+# Zusatzaufgabe - Meilenrechner
 
-# Benutzereingabe
-kilometer_input = input("gib die Kilometer ein, die in Meilen umgerechnet werden sollen: ")
+a = input("gib die km ein, die in Meilen umgerechnet werden sollen: ")
+
+def km_in_meilen(km):
+    x = float(km)
+    c = float(0.621371)
+    d = x * c
+    return d
+
+print (a, "Kilometer entsprechen:", km_in_meilen(a), "Meilen")
