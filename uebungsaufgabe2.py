@@ -9,7 +9,7 @@ print(f"Der vollständige Name lautet: {name_full}" )
 
 #2. Addition von Zahlen
 a = float(input("Zahl 1: "))
-b= float(input("Zahl 2: "))
+b = float(input("Zahl 2: "))
 
 c = (a + b)
 
