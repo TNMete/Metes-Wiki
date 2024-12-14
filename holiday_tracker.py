@@ -4,6 +4,7 @@ its_winter_holidays = date >= "2024.12.24" and date <= "2025.01.02"
 its_easter_holidays = date >= "2025.04.18" and date <= "2025.04.21"
 its_summer_holidays = date >= "2025.08.11" and date <= "2025.08.19"
 its_winter2_holidays = date >= "2025.12.24" and date <= "2026.01.01"
+its_japan_holidays = date >= "2025.02.21" and date <= "2025.02.28"
 
 feiertage = [
     "2024.10.03",
@@ -31,6 +32,8 @@ elif its_summer_holidays:
     print("you have summer holidays!")
 elif its_winter2_holidays:
     print("you have winter holidays!")
+elif its_japan_holidays:
+    print("you'll be in Japan during that time!")
 elif date in feiertage:
     print("Dieses Datum ist ein Feiertag!")
 else:
