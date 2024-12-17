@@ -3,8 +3,10 @@ def calc_area():
     try:
         breite = float(input("gib die Breite an: "))
         hoehe = float(input("gib die Länge an: "))
+        # hier
         flaeche = breite * hoehe
         print(f"Die Fläche des Rechtecks beträgt {flaeche} Quadratmeter")
+        # FRAGE! Wieso funktioniert except auch in 2 Zeilen weiter oben?
     except ValueError:
         print("Bitte Zahlen eingeben mit denen ich arbeiten kann!")
     print("\n")
@@ -40,7 +42,7 @@ def celsius_to_fahrenheit():
     print("Celsius zu Fahrenheit Rechner: ")
     try:
         celsius = float(input("Gib die Temperatur in Celsius ein: "))
-        fahrenheit = (celsius * 9 / 5) + 32
+        fahrenheit = celsius * 9 / 5 + 32
         print(f"{celsius}°C entsprechen {fahrenheit:.2f}°F.")
     except ValueError:
         print("Bitte Zahlen eingeben mit denen ich arbeiten kann!")
@@ -87,5 +89,9 @@ def menue():
             print("Bitte versuche es erneut.")
 
 
-if __name__ == "__main__":
-    menue()
+# falls ich diese datei in einem weiteren script verwende, wird dieses script hiermit nicht ausgeführt
+# if name == "main":
+#   menue()
+
+# ohne check ob main
+menue()
