@@ -2,10 +2,6 @@
 
 values
 
-x = 10
-
-y = 20
-
 ### Gleichheit
 print(x == y)   # False 
 
