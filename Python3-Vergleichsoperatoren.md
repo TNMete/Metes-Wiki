@@ -1,8 +1,6 @@
 # Python 3 - Vergleichsoperatoren
 
 values
-x = 10
-y = 20
 
 ### Gleichheit
 print(x == y)   # False 
@@ -21,7 +19,6 @@ print(x >= y)   # False
 
 ### Kleiner oder gleich
 print(x <= y)   # True
-
 
 ### if-Operatoren
 x = 15
