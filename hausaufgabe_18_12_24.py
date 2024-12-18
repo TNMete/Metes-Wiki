@@ -1,4 +1,4 @@
-# Aktuelles Datum und Uhrzeit ausgeben:
+# 1. Aktuelles Datum und Uhrzeit ausgeben:
 # Importiere das datetime-Modul.
 # ○Erstelle eine Funktion aktuelles_datum_und_uhrzeit(), die das
 # aktuelle Datum und die aktuelle Uhrzeit im Format TT.MM.JJJJ HH:MM:SS
@@ -21,7 +21,7 @@ import calendar
 # # Aufruf der Funktion
 # print(current_date_time())
 
-# Differenz bis zum Jahresende berechnen:
+# 2. Differenz bis zum Jahresende berechnen:
 # Schreibe eine Funktion tage_bis_jahresende(), die die Anzahl der Tage
 # vom aktuellen Datum bis zum 31. Dezember des aktuellen Jahres berechnet.
 # Hinweis: Verwende datetime.date oder datetime.datetime zur
@@ -37,7 +37,7 @@ import calendar
 
 # tage_bis_jahresende()
 
-# Benutzerdefiniertes Datum:
+# 3. Benutzerdefiniertes Datum:
 # Implementiere eine Funktion tage_bis_datum(), die ein vom Benutzer
 # eingegebenes Datum im Format TT.MM.JJJJ einliest und die Anzahl der
 # Tage vom aktuellen Datum bis zu diesem Datum berechnet.
@@ -56,7 +56,7 @@ import calendar
 
 # tage_bis_datum()
 
-# Wochentag berechnen:
+# 4. Wochentag berechnen:
 # Erstelle eine Funktion wochentag_berechnen(), die den Wochentag für ein
 # beliebiges eingegebenes Datum berechnet und ausgibt (z. B. Montag,
 # Dienstag usw.).
@@ -69,7 +69,7 @@ import calendar
 # datum = datetime.datetime.strptime(datum, "%d.%m.%Y").date()
 # print("Dein gewähltes Datum ist ein " + calendar.day_name[datum.weekday()])
 
-# Zeitverschiebung berechnen:
+# 5. Zeitverschiebung berechnen:
 # Implementiere eine Funktion zeit_in_zukunft(), die eine Eingabe von
 # Minuten, Stunden oder Tagen vom Benutzer entgegennimmt und das Datum
 # und die Uhrzeit berechnet, die nach dieser Zeitspanne liegt.
