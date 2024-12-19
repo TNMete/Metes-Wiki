@@ -47,27 +47,38 @@ import calendar
 
 
 # def tage_bis_datum():
-#     dein_datum = input("gib Datum!")
-#     ich_strp_dein_datum = datetime.datetime.strptime(dein_datum, "%d.%m.%Y")
-#     heute = datetime.datetime.today()
-#     ergebnis = abs(heute - ich_strp_dein_datum).days
-#     return print(f" Es sind noch {ergebnis} bis zu deinem angegebenen Datum")
+#     try:
+#         # Benutzer nach Eingabe des Datums fragen
+#         dein_datum = input("Bitte gib ein Datum im Format TT.MM.JJJJ ein: ")
+#         # Eingabe in ein Datum umwandeln
+#         ich_strp_dein_datum = datetime.datetime.strptime(dein_datum, "%d.%m.%Y")
+#         # Heutiges Datum abrufen
+#         heute = datetime.datetime.today()
+#         # Differenz in Tagen berechnen
+#         ergebnis = abs(heute - ich_strp_dein_datum).days
+#         return print(f" Es sind noch {ergebnis} Tage bis zu deinem angegebenen Datum")
+#     except ValueError:
+#         # Fehlerbehandlung bei ungültiger Eingabe
+#         print("Fehler! Bitte gib ein Datum im richtigen Format TT.MM.JJJJ ein.")
 
 
 # tage_bis_datum()
 
 # 4. Wochentag berechnen:
 # Erstelle eine Funktion wochentag_berechnen(), die den Wochentag für ein
-# beliebiges eingegebenes Datum berechnet und ausgibt (z. B. Montag,
+# beliebiges eingegebenes Datum berechnet und ausgibt (z. B. Montag,w
 # Dienstag usw.).
 
 # Frage an Tom, wieso gibt er mir falsche Werte für die Zukunft aus?
 
-# print("Bitte nenne mir ein Datum (TT.MM.JJJJ): ")
-# datum = input()
-# # in Datumformat konvertieren
-# datum = datetime.datetime.strptime(datum, "%d.%m.%Y").date()
-# print("Dein gewähltes Datum ist ein " + calendar.day_name[datum.weekday()])
+
+# def wochentag_berechnen():
+#     wochentag = input("Bitte nenne ein Datum ")
+#     day = datetime.datetime.strptime(wochentag, "%d.%m.%Y").date()
+#     print(f"Der {wochentag} ist ein {calendar.day_name[day.weekday()]}\n")
+
+
+# wochentag_berechnen()
 
 # 5. Zeitverschiebung berechnen:
 # Implementiere eine Funktion zeit_in_zukunft(), die eine Eingabe von
@@ -75,3 +86,44 @@ import calendar
 # und die Uhrzeit berechnet, die nach dieser Zeitspanne liegt.
 # Beispiel: Wenn der Benutzer 2 Stunden eingibt und die aktuelle Zeit 14:00
 # ist, sollte das Programm 16:00 ausgeben.
+
+from datetime import datetime, timedelta
+
+
+def zeit_in_zukunft():
+    print("Gib die Zeitspanne ein, die du hinzufügen möchtest:")
+    print("1: Minuten")
+    print("2: Stunden")
+    print("3: Tage")
+
+    try:
+        # Benutzer wählen lassen, welche Einheit er hinzufügen möchte
+        wahl = int(input("Wähle die Einheit (1, 2 oder 3): "))
+
+        # Benutzer nach der Anzahl der Einheiten fragen
+        anzahl = int(input("Wie viele Einheiten möchtest du hinzufügen? "))
+
+        # Aktuelles Datum und Uhrzeit abrufen
+        jetzt = datetime.now()
+
+        # Zeitspanne berechnen basierend auf der Auswahl
+        if wahl == 1:  # Minuten
+            zukunft = jetzt + timedelta(minutes=anzahl)
+        elif wahl == 2:  # Stunden
+            zukunft = jetzt + timedelta(hours=anzahl)
+        elif wahl == 3:  # Tage
+            zukunft = jetzt + timedelta(days=anzahl)
+        else:
+            print("Ungültige Wahl. Bitte wähle 1, 2 oder 3.")
+            return
+
+        # Ergebnis ausgeben
+        print(f"Aktuelle Zeit: {jetzt.strftime('%d.%m.%Y %H:%M:%S')}")
+        print(f"Zeit in der Zukunft: {zukunft.strftime('%d.%m.%Y %H:%M:%S')}")
+
+    except ValueError:
+        print("Fehler: Bitte gib eine gültige Zahl ein.")
+
+
+# Funktion aufrufen
+zeit_in_zukunft()
