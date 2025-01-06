@@ -1,34 +1,19 @@
-#1. Namensabfrage mit Input
+# class Auto:
+#     def __init__(self, marke):
+#         self.marke = marke
 
-firstname = input("Gib deinen Vornamen ein: ")
-lastname = input("Gib deinen Nachnamen ein: ")
+#     def beschreibung(self):
+#         return f"Dies ist ein Auto der Marke {self.marke}."
 
-name_full = firstname +" "+ lastname
 
-print(f"Der vollständige Name lautet: {name_full}" )
+# mein_auto = Auto("BMW")
+# print(mein_auto.beschreibung())  # Ausgabe: Dies ist ein BMW Auto.
 
-#2. Addition von Zahlen
-a = float(input("Zahl 1: "))
-b = float(input("Zahl 2: "))
 
-c = (a + b)
+class Rechner:
+    def addiere(self, a, b):
+        return a + b
 
-print(f"Ergebnis: {c}")
 
-#3. Zusatzaufgabe - Einfache If-Bedingung
-
-zahl = float(input("Gib eine Zahl zum prüfen an:" ))
-
-if zahl > 0:
-    print("Die Zahl ist positiv.")
-elif zahl == 0:
-    print("Die Zahl ist null.")
-else :
-    print("Die Zahl ist negativ.")
-
-istgerade = (zahl == 2 and zahl != -1) or (zahl % 2 == 0)
-
-if istgerade:
-    print("Die Zahl ist gerade.")
-else:
-    print("Die Zahl ist ungerade.")
+mein_rechner = Rechner()
+print(mein_rechner.addiere(5, 3))
