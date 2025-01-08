@@ -1,3 +1,37 @@
+# ------------------------[Aufgabe 1]------------------------------
+
+
+class Zutat:
+    def __init__(self, name, kalorien_pro_100g, zubereitungszeit):
+        self.name = name
+        self.kalorien_pro_100g = kalorien_pro_100g
+        self.zubereitungszeit = zubereitungszeit
+
+
+# ------------------------[Aufgabe 1.2]------------------------------
+
+
+class Rezept:
+    def __init__(self, name, beschreibung):
+        self.name = name
+        self.beschreibung = beschreibung
+        self.zutatenliste = {}
+
+    def zutat_hinzufügen(self, Zutat, Menge):
+        self.zutatenliste[Zutat] = Menge
+
+    # def kalorien(self, ):
+
+    # def kochzeit(self, ):
+
+    # def rezept_anzeigen(self, ):
+
+
+test = Rezept("Leckerer", "Pfannkuchen")
+print(test.beschreibung)
+
+# ------------------------------------------------------------------
+
 # class Auto:
 #     def __init__(self, marke):
 #         self.marke = marke
@@ -10,13 +44,13 @@
 # print(mein_auto.beschreibung())  # Ausgabe: Dies ist ein BMW Auto.
 
 
-class Rechner:
-    def addiere(self, a, b):
-        return a + b
+# class Rechner:
+#     def addiere(self, a, b):
+#         return a + b
 
 
-mein_rechner = Rechner()
-print(mein_rechner.addiere(5, 3))
+# mein_rechner = Rechner()
+# print(mein_rechner.addiere(5, 3))
 
 
 # --------------------------------------------------------
@@ -68,35 +102,3 @@ print(mein_rechner.addiere(5, 3))
 
 # def tanken(self):
 #     print(float(f"Das Auto muss nach {self.reichweite} tanken."))
-
-# ------------------------[Aufgabe 1]------------------------------
-
-
-class Zutat:
-    def __init__(self, name, kalorien_pro_100g, zubereitungszeit):
-        self.name = name
-        self.kalorien_pro_100g = kalorien_pro_100g
-        self.zubereitungszeit = zubereitungszeit
-
-
-# ------------------------[Aufgabe 1.2]------------------------------
-
-
-class Rezept:
-    def __init__(self, name, beschreibung):
-        self.name = name
-        self.beschreibung = beschreibung
-        self.zutatenliste = {}
-
-    def zutat_hinzufügen(self, Zutat, Menge):
-        self.zutatenliste[Zutat] = Menge
-
-    # def kalorien(self, ):
-
-    # def kochzeit(self, ):
-
-    # def rezept_anzeigen(self, ):
-
-
-test = Rezept("Leckerer", "Pfannkuchen")
-print(test.beschreibung)
