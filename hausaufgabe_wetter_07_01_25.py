@@ -1,6 +1,7 @@
 import requests
 
-response = requests.get("https://wttr.in/Koeln?format=j1")
+ort = input("Welche Stadt möchtest du abfragen?: ")
+response = requests.get(f"https://wttr.in/{ort}?format=j1")
 daten = response.json()
 
 print(daten["current_condition"])
