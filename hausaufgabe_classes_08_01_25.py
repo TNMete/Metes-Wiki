@@ -41,7 +41,7 @@ class Pet:
         return f"{self.name} hat jetzt {self.energy_level} Energie."
 
 
-my_female_cat = Pet("Lucy", "cat", 2, "Schleckis", 100)
+my_female_cat = Pet("Lucy", "cat", 3, "Schleckis", 100)
 my_male_cat = Pet("Finn", "cat", 2, "fish", 100)
 
 # Beschreibung ausgeben
