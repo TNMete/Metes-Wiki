@@ -13,15 +13,6 @@ def get_user(id):
         return jsonify({"error": "User not found"}), 400
 
 
-@app.route("/login/<int:id>", methods=["GET"])
-def login_user(id):
-    user = next((user for user in users if user["id"] == id), None)
-    if user:
-        return jsonify({"message": f"User {user['name']} successfully logged in!"})
-    else:
-        return jsonify({"error": "User not found"}), 400
-
-
 @app.route("/search", methods=["GET"])
 def search_user():
     name = request.args.get("name")
