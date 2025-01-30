@@ -48,20 +48,27 @@
 
 # - Exercise 6
 
-
-def ist_palindrom(s):
-    s = s.replace(" ", "").lower()
-    return s == s[::-1]
-
-
-def main():
-    eingabe = input("Gib einen String ein: ")
-
-    if ist_palindrom(eingabe):
-        print("Der String ist ein Palindrom.")
-    else:
-        print("Der String ist kein Palindrom.")
+# def ist_palindrom(s):
+#     s = s.replace(" ", "").lower()
+#     return s == s[::-1]
 
 
-if __name__ == "__main__":
-    main()
+# def main():
+#     eingabe = input("Gib einen String ein: ")
+
+#     if ist_palindrom(eingabe):
+#         print("Der String ist ein Palindrom.")
+#     else:
+#         print("Der String ist kein Palindrom.")
+
+
+# if __name__ == "__main__":
+#     main()
+
+# - Exercise 7
+
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+b = [number for number in a if number % 2 == 0]
+
+print(b)
