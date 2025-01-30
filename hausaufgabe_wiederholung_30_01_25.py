@@ -39,11 +39,29 @@
 
 # - Exercise 5
 
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+# a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
-compare = list(set(a) & set(b))
+# compare = list(set(a) & set(b))
 
-print(compare)
+# print(compare)
 
 # - Exercise 6
+
+
+def ist_palindrom(s):
+    s = s.replace(" ", "").lower()
+    return s == s[::-1]
+
+
+def main():
+    eingabe = input("Gib einen String ein: ")
+
+    if ist_palindrom(eingabe):
+        print("Der String ist ein Palindrom.")
+    else:
+        print("Der String ist kein Palindrom.")
+
+
+if __name__ == "__main__":
+    main()

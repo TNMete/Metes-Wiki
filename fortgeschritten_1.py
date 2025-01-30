@@ -82,6 +82,8 @@ def get_user_by_name():
 # welche Route einen neuen Nutzer in die Liste einfügt
 # 6. Zusatz: Wendet sinvolle Fälle für PUT und DELETE an (z.B udpate username, delete user)
 # 7. Schwierig: Schreibt die Nutzer-liste in eine Datei, sodass die Liste aktuell bleibt, auch nach Beenden des Program
+
+
 @app.route(
     "/users/login", methods=["POST"]
 )  # localhost:<PORT>/users/login, body: {"username": <USER_NAME>, "password": <PASSWORD>}
