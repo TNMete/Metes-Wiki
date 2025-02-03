@@ -43,4 +43,4 @@
 ## Zusammenhänge:
 - Die **Datenverarbeitung** erfolgt oft im Rahmen einer **Auftragsverarbeitung**, bei der ein **Auftragsverarbeiter** Daten im Auftrag eines Unternehmens speichert oder bearbeitet.  
 - **Einwilligung** ist häufig erforderlich, bevor eine **Datenverarbeitung** durchgeführt wird, insbesondere wenn es um sensible Daten geht.  
-- Bei der Verarbeitung von Daten ist **Datensicherheit** unerlässlich, um das **Recht auf Vergessenwerden** und andere Rechte der betroffenen Pers
+- Bei der Verarbeitung von Daten ist **Datensicherheit** unerlässlich, um das **Recht auf Vergessenwerden** und andere Rechte der betroffenen Person zu gewährleisten. Dies umfasst den Schutz vor unbefugtem Zugriff, die ordnungsgemäße Speicherung und Verarbeitung der Daten sowie die Sicherstellung, dass personenbezogene Daten auf Anfrage hin gelöscht oder korrigiert werden können, um den rechtlichen Anforderungen und ethischen Standards gerecht zu werden.
