@@ -1,4 +1,4 @@
-# Datenschutz-Glossar
+# DSGVO-Glossar
 
 1. **Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz**  
    *Definition:* Daten dürfen nur rechtmäßig und transparent verarbeitet werden, und die betroffene Person muss wissen, wie ihre Daten verwendet werden.
