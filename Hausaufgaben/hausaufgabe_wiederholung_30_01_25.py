@@ -67,8 +67,49 @@
 
 # - Exercise 7
 
-a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+# a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
-b = [number for number in a if number % 2 == 0]
+# b = [number for number in a if number % 2 == 0]
 
-print(b)
+# print(b)
+
+# - Exercise 8
+
+# import random
+
+
+# def get_computer_choice():
+#     return random.choice(["Schere", "Stein", "Papier"])
+
+
+# def get_winner(player_choice, computer_choice):
+#     if player_choice == computer_choice:
+#         return "Unentschieden"
+#     elif (
+#         (player_choice == "Schere" and computer_choice == "Papier")
+#         or (player_choice == "Stein" and computer_choice == "Schere")
+#         or (player_choice == "Papier" and computer_choice == "Stein")
+#     ):
+#         return "Du hast gewonnen!"
+#     else:
+#         return "Computer hat gewonnen!"
+
+
+# def play_game():
+#     print("Willkommen zu Schere, Stein, Papier!")
+#     player_choice = input("Wähle Schere, Stein oder Papier: ").capitalize()
+#     if player_choice not in ["Schere", "Stein", "Papier"]:
+#         print("Ungültige Eingabe! Bitte wähle Schere, Stein oder Papier.")
+#         return
+
+#     computer_choice = get_computer_choice()
+#     print(f"Computer wählt: {computer_choice}")
+
+#     result = get_winner(player_choice, computer_choice)
+#     print(result)
+
+
+# if __name__ == "__main__":
+#     play_game()
+
+# - Exercise 9
