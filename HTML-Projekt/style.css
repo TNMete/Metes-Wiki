@@ -104,15 +104,16 @@ body {
 .topic {
     max-width: 800px;
     margin: 40px auto;
-    padding: 30px;
+    padding: 60px;
     background: #2975a1;
     border-radius: 20px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #9ebad1;
+    color: #2975a1;
     text-shadow: 2px 2px 10px rgba(155, 89, 182, 0.2);
     text-align: center;
 }
